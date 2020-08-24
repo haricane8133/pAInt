@@ -1,0 +1,11 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.5.1+cu101
+torchvision==0.4.2+cu101
+dominate>=2.3.1
+dill
+scikit-image
+tqdm>=4.21.0
+numpy>=1.14.2
+Pillow>=6.2.0
+opencv-python
+argparse

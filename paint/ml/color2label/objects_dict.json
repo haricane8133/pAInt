@@ -1,0 +1,102 @@
+{
+    "1": {
+        "color": "#594B21",
+        "name": "wall"
+    },
+    "2": {
+        "color": "#917C34",
+        "name": "building"
+    },
+    "3": {
+        "color": "#A7E2E4",
+        "name": "sky"
+    },
+    "4": {
+        "color": "#F0C083",
+        "name": "flooring"
+    },
+    "5": {
+        "color": "#418324",
+        "name": "tree"
+    },
+    "6": {
+        "color": "#F16C6C",
+        "name": "ceiling"
+    },
+    "7": {
+        "color": "#2C302B",
+        "name": "road"
+    },
+    "8": {
+        "color": "#9C235A",
+        "name": "bed"
+    },
+    "9": {
+        "color": "#D2C6B5",
+        "name": "windowpane"
+    },
+    "10": {
+        "color": "#6BE326",
+        "name": "grass"
+    },
+    "13":{
+        "color": "#1f74db",
+        "name": "person"
+    },
+    "14": {
+        "color": "#A96810",
+        "name": "earth"
+    },
+    "15": {
+        "color": "#583400",
+        "name": "door"
+    },
+    "17": {
+        "color": "#513105",
+        "name": "mountain"
+    },
+    "18": {
+        "color": "#149C3D",
+        "name": "plant"
+    },
+    "19":{
+        "color": "#5A0000",
+        "name": "curtain"
+    },
+    "21":{
+        "color": "#F1AD1B",
+        "name": "car"
+    },
+    "22": {
+        "color": "#B2CBE5",
+        "name": "water"
+    },
+    "26": {
+        "color": "#A03909",
+        "name": "house"
+    },
+    "27": {
+        "color": "#0C936E",
+        "name": "sea"
+    },
+    "30":{
+        "color": "#1C4613",
+        "name": "field"
+    },
+    "33": {
+        "color": "#D91F1F",
+        "name": "fence"
+    },
+    "35": {
+        "color": "#212121",
+        "name": "rock"
+    },
+    "47": {
+        "color": "#7E570E",
+        "name": "sand"
+    },
+    "49": {
+        "color": "#680183",
+        "name": "skyscraper"
+    }
+}

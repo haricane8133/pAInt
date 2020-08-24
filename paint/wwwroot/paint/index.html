@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Paint!</title>
+		
+		<link href="styles/normalize.css" rel="stylesheet" type="text/css">
+		<link href="styles/layout.css" rel="stylesheet" type="text/css">
+		<link href="styles/print.css" rel="stylesheet" type="text/css" media="print">
+		<link href="lib/os-gui/layout.css" rel="stylesheet" type="text/css">
+		<!-- <link href="lib/os-gui/windows-98.css" rel="stylesheet" type="text/css"> -->
+		<!-- <link href="lib/os-gui/windows-default.css" rel="stylesheet" type="text/css" title="Windows Default"> -->
+		<!-- <link href="lib/os-gui/peggys-pastels.css" rel="alternate stylesheet" type="text/css" title="Peggy's Pastels"> -->
+
+		<link rel="apple-touch-icon" sizes="57x57" href="./apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="./apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="./apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="./apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="./apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="./apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="./apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="./apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="./apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="./android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+		<link rel="manifest" href="./manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="./ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+		<link rel="manifest" href="manifest.json">
+
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+
+		<meta name="description" content="Paint, with extra features" />
+		<meta property="og:image:width" content="279">
+		<meta property="og:image:height" content="279">
+		<meta property="og:description" content="Paint, with extra features">
+		<meta property="og:title" content="Paint">
+		
+		<script src="src/theme.js"></script>
+	</head>
+	<body>
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			crossorigin="anonymous"
+		></script>
+		<script>
+			window.jQuery || document.write('<script src="lib/jquery-3.4.1.min.js"><\/script>');
+		</script> 
+		
+		<script src="src/loadImage1.js"></script>
+		<script src="lib/pep.js"></script>
+		<script src="lib/canvas.toBlob.js"></script>
+		<script src="lib/gif.js/gif.js"></script>
+		<script src="lib/palette.js"></script>
+		<script src="lib/FileSaver.js"></script>
+		<script src="lib/font-detective.js"></script>
+		<script src="lib/libtess.min.js"></script>
+		<script src="lib/os-gui/parse-theme.js"></script>
+		<script src="lib/os-gui/$Window.js"></script>
+		<script src="lib/os-gui/$MenuBar.js"></script>
+		<script src="lib/imagetracer_v1.2.5.js"></script>
+
+		<script src="src/helpers.js"></script>
+		<script src="src/storage.js"></script>
+		<script src="src/$Component.js"></script>
+		<script src="src/$ToolWindow.js"></script>
+		<script src="src/$ToolBox.js"></script>
+		<script src="src/$ColorBox.js"></script>
+		<script src="src/$FontBox.js"></script>
+		<script src="src/$Handles.js"></script>
+		<script src="src/OnCanvasObject.js"></script>
+		<script src="src/OnCanvasSelection.js"></script>
+		<script src="src/OnCanvasTextBox.js"></script>
+		<script src="src/OnCanvasHelperLayer.js"></script>
+		<script src="src/image-manipulation.js"></script>
+		<script src="src/tool-options.js"></script>
+		<script src="src/tools.js"></script>
+		<!--<script src="src/extra-tools.js"></script>-->
+		<script src="src/functions.js"></script>
+		<script src="src/manage-storage.js"></script>
+		<!-- <script src="src/imgur.js"></script> -->
+		<script src="src/help.js"></script>
+		<script src="src/simulate-random-gestures.js"></script>
+		<script src="src/menus.js"></script>
+		<!-- <script src="src/speech-recognition.js"></script> -->
+		<script src="src/app.js"></script>
+		<script src="src/sessions.js"></script>
+		<script src="src/loadImage2.js"></script>
+		<!-- <script src="lib/konami.js"></script> -->
+		<!-- <script src="src/vaporwave-fun.js"></script> -->
+		<script>
+			if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)){
+				document.write(
+					'<style>body { text-align: center; }</style>' +
+					'<div className="not-supported">' +
+						'<h1 className="not-supported-header">Internet Explorer is not supported!</h1>' +
+						'<p className="not-supported-details">Try Chrome, Firefox, or Edge.</p>' +
+					'</div>'
+				);
+			}
+		</script>
+		<noscript>
+			<p>This application requires JavaScript to run.</p>
+		</noscript>
+	</body>
+</html>
