@@ -9,7 +9,7 @@
 - The backend uses the folder [/paint/wwwroot/](paint/wwwroot) as the public or static directory and this is the place where the compiled distribution files of the frontend are placed.
 - You may find the modified code of [JS Paint](https://github.com/1j01/jspaint) within the repo at [/paint/wwwroot/paint/](paint/wwwroot/paint).
 - You may find ML based stuff and user files within [/paint/ml/](paint/ml) directory
-- The video demo can be found at [this link](https://youtu.be/t5aTpephceg)
+- The video demo can be found at [this link](https://youtu.be/A6L7rqu0yIA)
 
 ## Usage
 * Deploy the backend to a server with a unix based shell that supports "&&" to chain two commands together and has an NVIDIA GPU attached.

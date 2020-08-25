@@ -15,10 +15,8 @@ yarn serve
 yarn build
 ```
 
+Make sure to copy the dist files to the wwwroot directory of the main project
 ### Lints and fixes files
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
