@@ -14,7 +14,7 @@
 ## Usage
 * Deploy the backend to a server with a unix based shell that supports "&&" to chain two commands together and has an NVIDIA GPU attached.
 * You must have [python](https://www.python.org/) or [conda](https://docs.conda.io/) set up with all requirements as given in [/paint/ml/conda_env.yml](paint/ml/conda_env.yml) and [/paint/ml/conda_env_spec.txt](paint/ml/conda_env_spec.txt)
-* Note that this project uses GIT LFS. So you'll have to install GIT LFS and fetch all the LFS files
+* Note that this project uses [GIT LFS](https://git-lfs.github.com/). So you'll have to install [GIT LFS](https://git-lfs.github.com/) and fetch all the LFS files
 
 ## Authors
 * [Hari. R](https://www.github.com/haricane8133)
